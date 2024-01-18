@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Scramble Word Game</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body onload="pickWord()">
+    <h1>Scramble Word Game</h1>
+    <p>Unscramble the word:</p>
+    <p id="scrambled-word"></p>
+    <p id="hint"></p>
+    <p id="score"></p>
+    <input type="text" id="guess-input" placeholder="Enter your guess">
+    <button id="submit-button" onclick="checkGuess()">Submit</button>
+    <p id="message"></p>
+    <button id="next-button" onclick="nextWord()">Next Word</button>
+    <script src="script.js"></script>
+  </body>
+</html>
